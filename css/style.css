@@ -81,13 +81,13 @@ li {
     height: 50px;
     margin: 0px;
     
-    border-radius: 4px;
+    border-radius: 8px;
     display: flex;
     position: fixed;
     justify-content: end;
     align-items: flex-end;
     background-color: rgb(3, 126, 126);
-
+    border: 1px solid white;
 }
 
 /* altura y anchura elemento del menu*/
@@ -206,6 +206,7 @@ li {
   flex-direction: column;
   justify-content: end;
   align-items: center;
+
 }
 /* animacion titulo principal */
 @keyframes texto {
@@ -236,12 +237,21 @@ h1 {
    grid-column-start: 2;
    grid-row-start: 3;
    border-radius: 8px;
+   border: 1px solid white;
+    width: 700px;
+    height: 500px;
+}
+.imgItem {
+    background-image: url(../img/aviona.jpg);
+    background-size: cover;
+    background-position: center;
 }
 /* posicionamiento del parrafo en el index */
 div {  
     grid-column-start: 2;  
     grid-column-end: 5; 
     grid-row-start: 4;
+    
 }
 /* posicionamiento titulo principal resto de las paginas con flexbox*/
 .aFlex{
@@ -255,15 +265,16 @@ div {
  
     display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: bottom;
   align-items: center;
   background-color: rgb(3, 126, 126);
-border-radius: 4px;
+border-radius: 8px;
+border: 1px solid white;
+height: 130px;
+z-index: -1;
 }
 /* caracteristicas del texto en el footer */
-
-h3 {
-   
+.shineUno {
     text-transform: uppercase;
     font-size: x-large;
     font-weight: bold;
@@ -271,7 +282,21 @@ h3 {
     font-size: 30px;
     text-align:center;
    color: white;
+   height: 1px;
+  
 }
+/* caracteristicas del texto en el footer */
+.shineDos{
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: summer;
+    font-size: 30px;
+    text-align:center;
+   color: white;
+   
+}
+
 /* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
 #avionUno {
     position: relative;
@@ -374,7 +399,7 @@ p {
     font-size: 30px;
 position: relative;
 top: 240px;
-
+color: white;
 }
 
 /* caracteristicas de la caja de cada imagen de Empresas, borde, anchura y altura */
@@ -395,7 +420,7 @@ top: 240px;
     font-size: 20px;
 position: relative;
 top: 240px;
-
+color: white;
 }
 /* ruta de la imagen de fondo, que cubra toda el area de .empresas */
 .eUno {
