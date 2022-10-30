@@ -116,6 +116,7 @@ h1 {
     animation-iteration-count: infinite;
    
 }
+
 /* posicionamiento de la imagen del index */
 .imgUno {
    
@@ -152,13 +153,14 @@ p {
  
 
 }
+/* caracteristicas contenedor de imagen de avion pagina aviones */
 .aviones {
     border-radius: 8px;
    border: 1px solid white;
     
     
 }
-/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+/* caracteristicas de imagen de avion */
 .avionUno {
     background-image: url(../img/747a.jpg);
     
@@ -166,27 +168,27 @@ p {
     
     
 }
-/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+/* caracteristicas de imagen de avion */
 .avionDos {
     background-image: url(../img/boeing-777.jpeg);
     background-size: cover;
     
     
 }
-/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+/* caracteristicas de imagen de avion */
 .avionTres {
     background-image: url(../img/737max.jpeg);
    
     background-size: cover;
     
 }
-/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+/* caracteristicas de imagen de avion */
 .avionCuatro {
     background-image: url(../img/boeing-b787-dreamliner.jpeg);
     background-size: cover;
     
 }
-/* caracteristicas de imagen de avion, evitando que se superponga al menu, posicionamiento */
+/* caracteristicas de imagen de avion */
 .avionCinco {
     background-image: url(../img/boeing-757.jpeg);
     background-size: cover;
@@ -405,6 +407,14 @@ border: 1px solid white;
     background-color: #4f86c6;
     
 }
+footer {
+    background-color:  rgb(135, 185, 243);
+    
+}
+section {
+    background-color:  rgb(135, 185, 243);
+  
+}
 /* tipo de fuente para el footer */
 .footer-text {
     font-family: summer;
@@ -507,7 +517,7 @@ top: 65px;
     p {
 
         font-size: 15px;
-        padding: 13px;
+        padding: 40px;
     }
     /* tamaño texto de los titulos */
     .aHijo {
@@ -539,9 +549,9 @@ top: 65px;
         font-size: 20px;
     }
     /* agregando separacion al contenido principal de las paginas */
-main {
-    padding: 15px;
-}
+    main {
+        padding: 50px;
+    }
 /* tamaño de los iconos de redes sociales pie de pagina */
 .footerIcon {
     height: 23px;
@@ -599,7 +609,7 @@ main {
         p {
 
             font-size: 20px;
-            padding: 26px;
+            padding: 40px;
         }
         /* tamaño texto de los titulos */
         .aHijo {
@@ -631,9 +641,9 @@ main {
             font-size: 20px;
         }
         /* agregando separacion al contenido principal de las paginas */
-main {
-    padding: 30px;
-}
+        main {
+            padding: 50px;
+        }
 /* tamaño de los iconos de redes sociales pie de pagina */
 .footerIcon {
     height: 23px;
