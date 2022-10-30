@@ -6,21 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/avion.png" type="image/x-icon">
     <title>AVIONES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
-<div class="bFlex">
- <nav>
-     <ul class="bHijo">
+<div>
+ <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+  <div class="container-fluid"> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
        
-         <li class="menu iUno"><a href="../index.html">Inicio</a></li>
-         <li class="menu iDos"><a href="rutas.html">Rutas</a></li>
-         <li class="menu iTres"><a href="aviones.html">Aviones</a></li>
-         <li class="menu iCuatro"><a href="empresas.html">Empresas</a></li>
-         <li class="menu iCinco"><a href="contacto.html">Contacto</a></li>
-         <li class="prueba"><a href="index.html">.</a></li>
+         <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+         <li  class="nav-item"><a class="nav-link" href="rutas.html">Rutas</a></li>
+         <li  class="nav-item"><a class="nav-link active" aria-current="page" href="aviones.html">Aviones</a></li>
+         <li  class="nav-item"><a class="nav-link" href="empresas.html">Empresas</a></li>
+         <li  class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        
      </ul>
+    </div>
+    </div> 
  </nav>
 </div>
 
@@ -30,38 +38,85 @@
   
             <h1 class="aHijo">AVIONES</h1>
             </div>
-    </br></br>
-        <img id="avionUno" src="../img/747.jpeg" alt="Avion 747">
-    </br></br>
-        <p>El Boeing 747 figura como número 1 del mundo, porque muchas compañías aéreas dependen de este avión. Algunas los usan para vuelos comerciales mientras que otras como aviones de carga. El avión número uno del mundo.</p>
-    </br></br>
-        <img id="avionDos" src="../img/boeing-777.jpeg" alt="Avion 777">
-    </br></br>
-        <p>Boeing 777. La razón característica que hace a este avión tan popular es su gran capacidad. Este aparato puede acomodar de 300 a 550 pasajeros. Es una de las mejores opciones para las compañías aéreas que ofrecen vuelos internacionales.</p>
-    </br></br>
-            <img id="avionTres" src="../img/737max.jpeg" alt="Avion 737">
-        </br></br>
-            <p>El Boeing 737 aparece en tercer lugar. Las aerolíneas comerciales cuentan con modelos como el -600, -700, -800 y -900 ER. Puesto que es uno de los aviones más vendidos de Boeing, la constructora norteamericana ha lanzado su último modelo, el MAX 737, que estará operativo para 2017.</p>
-        </br></br>
-            <img id="avionCuatro" src="../img/boeing-b787-dreamliner.jpeg" alt="Avion 787">
-        </br></br>
-            <p>Boeing 787 Dreamliner.  Ha supuesto una innovación en el mundo de los vuelos comerciales, principalmente debido a su eficiencia en el consumo de combustible. Es también más económico, ahorra energía, hace menos ruido y cuenta con otras innovaciones de las que el pasajero puede disfrutar durante el vuelo.</p>
-        </br></br>
-            <img id="avionCinco" src="../img/boeing-757.jpeg" alt="Avion 757">
-        </br></br>
-            <p>El quinto lugar es para el Boeing 757, uno de los más producidos por el constructor aeronáutico norteamericano desde 1981 a 2004. Su principal avance tecnológico es el diseño de las alas, que mejora la aerodinámica.</p>
-        </br></br>
+        </div>
+        <ul class="container-fluid">
+            <div class="row justify-content-center">
+  
+                <li class="column aviones avionUno"><h2></h2></li>
+                <li class="column"><p>El Boeing 747 figura como número 1 del mundo, porque muchas compañías aéreas dependen de este avión. Algunas los usan para vuelos comerciales mientras que otras como aviones de carga. El avión número uno del mundo.</p></li>
+                <li class="column aviones avionDos"><h2></h2></li>
+                <li class="column"><p>Boeing 777. La razón característica que hace a este avión tan popular es su gran capacidad. Este aparato puede acomodar de 300 a 550 pasajeros. Es una de las mejores opciones para las compañías aéreas que ofrecen vuelos internacionales.</p></li>
+                <li class="column aviones avionTres"><h2></h2></li>
+                <li class="column"><p>El Boeing 737 aparece en tercer lugar. Las aerolíneas comerciales cuentan con modelos como el -600, -700, -800 y -900 ER. Puesto que es uno de los aviones más vendidos de Boeing, la constructora norteamericana ha lanzado su último modelo, el MAX 737, que estará operativo para 2017.</p></li>
+                <li class="column aviones avionCuatro"><h2</h2></li>
+                <li class="column"><p>Boeing 787 Dreamliner.  Ha supuesto una innovación en el mundo de los vuelos comerciales, principalmente debido a su eficiencia en el consumo de combustible. Es también más económico, ahorra energía, hace menos ruido y cuenta con otras innovaciones de las que el pasajero puede disfrutar durante el vuelo.</p></li>
+                <li class="column aviones avionCinco"><h2></h2></li>
+                <li class="column"><p>El quinto lugar es para el Boeing 757, uno de los más producidos por el constructor aeronáutico norteamericano desde 1981 a 2004. Su principal avance tecnológico es el diseño de las alas, que mejora la aerodinámica.</p></li>
+            </div>
+</ul>
+    
 
 
-            <button class="boton"> <a href="aviones.html">Subir</a></button>
+            <button class="boton"> <a href="aviones.html">Subir</a>
      </main>
-     <!-- PIE de PAGINA -->
-     <footer class="gridFooter">
-        <h3 class="shineUno">Aaron Martinez</h3>
- <h3 class="shineDos"> 
-    <span>TODOS LOS DERECHOS RESERVADOS</span>
-</h3>
-     </footer>
- </div>
- </body>
-</html>
+     <footer class="text-center text-white" style="background-color:  rgb(135, 185, 243);">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              role="button"
+              data-mdb-ripple-color="dark" href="https://www.facebook.com/">
+              <img class="footerIcon" src="../img/facebook-5-32.png"><i class="fab fa-facebook-f"></i></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              role="button"
+              data-mdb-ripple-color="dark" href="https://www.twitter.com/">
+              <img class="footerIcon" src="../img/twitter-5-32.png" ><i class="fab fa-twitter"></i></a>
+    
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              role="button"
+              data-mdb-ripple-color="dark" href="https://www.instagram.com/">
+              <img class="footerIcon" src="../img/instagram-5-32.png"><i class="fab fa-instagram"></i></a>
+      
+            <!-- Whatsapp -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              role="button"
+              data-mdb-ripple-color="dark" href="https://www.whatsapp.com/">
+              <img class="footerIcon" src="../img/whatsapp-32.png" ><i class="fab fa-linkedin"></i></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              role="button"
+              data-mdb-ripple-color="dark"
+              href="https://www.github.com/">
+              <img class="footerIcon" src="../img/github-10-32.png"><i class="fab fa-github"></i></a>
+          </section>
+        
+        </div>
+     
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 derechos">
+          <h3 class="footer-text">Aaron Martinez © 2022 Todos los Derechos Reservados</h3>
+          <a href="https://aaronmartinez88.github.io/preentrega2//" class="footer-text footer-link">vuelos.com</a>
+        </div>
+    
+      </footer>
+        
+     
+     
+    
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+     </body>
+    </html>
